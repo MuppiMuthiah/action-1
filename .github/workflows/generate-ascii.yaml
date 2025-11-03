@@ -18,7 +18,7 @@ jobs:
             - name: test file exists
               run:  grep -i "dragon" dragon.txt
             
-            - name: Read file
+            - name: Read files
               run: cat dragon.txt
             
             - name: list repo files 
